@@ -1,0 +1,19 @@
+# Exercise 1.1: The "Tool-Box" Architect (Conceptual Design)
+#
+# Design an Agentic Vacation Share Assistant. The user wants to press a button and say: 
+# "I'm in Paris right now, grab a picture of the Eiffel Tower, find a French restaurant nearby, and text it to my mom."
+#
+# List out at least three distinct traditional APIs/Tools this agent will need to have in its toolbox to successfully complete this task. 
+# Define the specific Input it must receive and the Output it will give back to the agent.
+
+Tool 1 Name: 
+- Input: 
+- Output: 
+
+Tool 2 Name: 
+- Input: 
+- Output: 
+
+Tool 3 Name: 
+- Input: 
+- Output: 
