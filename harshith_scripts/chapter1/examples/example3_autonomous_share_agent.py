@@ -63,11 +63,11 @@ for step in range(3):
         print("[System]: Task Complete. Halting.")
         break
     elif "CALL:" in output:
-        # Extract function name and argument
-        match = re.search(r"CALL:\s*(\w+)\(([^)]+)\)", output)
+        # Extract function name and argument robustly handling spacing
+        match = re.search(r"CALL\s*:\s*(\w+)\s*\(\s*([^)]+?)\s*\)", output)
         if match:
             func_name = match.group(1)
-            arg = match.group(2).strip("'\"")
+            arg = match.group(2).strip("'\" ")
             
             # Execute tool locally in Python
             print(f"[System]: Executing tool '{func_name}' with arg '{arg}'...")
