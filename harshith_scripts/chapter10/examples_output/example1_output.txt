@@ -1,0 +1,13 @@
+Starting Pass@k Evaluation Run using model: llama3.1:latest...
+
+Evaluating Case 1: 'Calculate 15 * 6'
+  Attempt 1: SUCCESS (Returned 90)
+
+Evaluating Case 2: 'Subtract 40 from 100'
+  Attempt 1: SUCCESS (Returned 60)
+
+Evaluating Case 3: 'Divide 81 by 9'
+  Attempt 1: SUCCESS (Returned 9)
+
+--- Evaluation Results ---
+Pass@3 Success Rate: 100.0% (3/3)

@@ -1,0 +1,7 @@
+Running Draft-Critic loop using model: llama3.1:latest...
+
+[Writer Node]: Drafting response... (Attempt 1)
+
+[Critic Node]: Evaluating draft against instructions...
+[Critic Node] Evaluation: PASS. The summary meets both rules: it discusses the benefits of renewable energy (reduced greenhouse gas emissions, improved air quality, and decreased reliance on finite fossil fuels) and is exactly two sentences long.
+[Router]: Process complete. Terminating.

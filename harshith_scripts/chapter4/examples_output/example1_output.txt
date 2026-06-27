@@ -1,0 +1,8 @@
+Original history length: 7 messages.
+Trimmed history length: 4 messages.
+
+--- Trimmed Context Structure ---
+[0] system: You are a calculator agent.
+[1] assistant: Result is 12
+[2] user: Subtract 5
+[3] assistant: Result is 7

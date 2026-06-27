@@ -1,0 +1,10 @@
+Starting weather agent loop...
+
+--- Loop Step 1 ---
+Agent Output: CALL: get_weather("Paris")
+[System]: Executing tool 'get_weather' with arg 'Paris'...
+Observation: The weather in Paris is 72 degrees and sunny.
+
+--- Loop Step 2 ---
+Agent Output: STOP: 72 degrees and sunny
+[System]: Task Complete. Halting.

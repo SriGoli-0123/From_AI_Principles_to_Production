@@ -1,0 +1,5 @@
+Evaluating Retrieval Recall using: FakeEmbeddings (Fallback)...
+Query: 'How do administrators log in?' -> SUCCESS (Found policy_A)
+Query: 'Where do we store backup keys?' -> SUCCESS (Found policy_B)
+
+Retrieval Recall@2: 100.0%

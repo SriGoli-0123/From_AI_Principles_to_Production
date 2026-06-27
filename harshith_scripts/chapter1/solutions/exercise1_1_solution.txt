@@ -1,0 +1,20 @@
+Exercise 1.1 Solution: The "Tool-Box" Architect
+
+Goal: Design an Agentic Vacation Share Assistant to grab a picture of the Eiffel Tower, find a French restaurant nearby, and text it to Carlos's mom.
+
+To complete this task, the agent needs three discrete traditional APIs/Tools:
+
+1. GPS Location API / Geocoding Service
+   - Purpose: Obtains the user's current geographic coordinates or resolves "Paris, France" to lat/lng.
+   - Input: Device Request (or address string "Paris, France")
+   - Output: Coordinates (Latitude: 48.8584, Longitude: 2.2945)
+
+2. Local Business Search API (e.g., Yelp, Google Places)
+   - Purpose: Searches for French restaurants and landmark photos near the coordinates.
+   - Input: coordinates (lat/lng), query ("French restaurant"), radius (500m)
+   - Output: List of restaurants with details (e.g., name: "Le Bistro", address: "123 Rue de...", photo_url: "http://...")
+
+3. SMS / Communication Gateway API (e.g., Twilio)
+   - Purpose: Sends the text message and photo to the recipient.
+   - Input: recipient phone number, message text (restaurant details), media_url (photo of Eiffel Tower)
+   - Output: SMS status code (e.g., "queued", "sent") or confirmation ID.

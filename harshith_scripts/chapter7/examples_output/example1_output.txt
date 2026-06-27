@@ -1,0 +1,6 @@
+Indexing documents in vector store using: FakeEmbeddings (Fallback)...
+
+Querying: 'What does error 500 mean?'
+
+--- Match Found ---
+Match [0]: Database credentials should be stored in environment variables, never hardcoded in settings.json.

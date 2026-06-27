@@ -1,0 +1,4 @@
+Benchmarking Agent Performance using model: llama3.1:latest...
+
+[Single Pass]: Success=True | Time=0.71s | Output: 'The server is currently fully operational again.'
+[Reflection]:  Success=True | Time=0.48s | Output: 'The server is currently fully operational again.'

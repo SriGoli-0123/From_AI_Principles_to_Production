@@ -1,0 +1,11 @@
+Triggering graph run with local tracing...
+
+[Trace Monitor]: Entering Node 'fetcher'...
+[Trace Monitor]: Exited Node 'fetcher'. Duration: 0.1050s
+
+[Trace Monitor]: Entering Node 'processor'...
+[Trace Monitor]: Exited Node 'processor'. Duration: 0.0550s
+
+--- Final Compiled Trace Log ---
+ - Node 'fetcher' executed in 0.1050s
+ - Node 'processor' executed in 0.0550s

@@ -1,0 +1,10 @@
+
+Draft complete: recipient=ceo@company.com
+Message content: Draft payload: Critical alert.
+
+[Human Override]: Changing recipient to: security_lead@company.com
+
+Resuming sender...
+
+[Sender]: Message sent to security_lead@company.com!
+Payload: 'Draft payload: Critical alert.'

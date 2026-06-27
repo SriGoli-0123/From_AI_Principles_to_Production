@@ -1,0 +1,9 @@
+Generating running summary...
+
+Saved Working Memory: Here is the updated conversation summary:
+
+There isn't a "previous summary" yet, since this is the beginning of our conversation. However, I can provide a concise summary now:
+
+Alex has introduced themselves and mentioned using a green laptop. They also asked me to remember their server IP address, which has been registered as 192.168.1.50.
+
+Agent response using memory summary: Your server's IP address is 192.168.1.50. I've made sure to note it down in my records. Do you need any help with setting up or configuring anything?

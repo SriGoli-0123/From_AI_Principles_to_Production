@@ -1,0 +1,6 @@
+{
+
+  "destination": "Discord",
+  "clean_message": "Check out this dog!"
+
+}
