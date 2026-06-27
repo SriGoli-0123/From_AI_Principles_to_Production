@@ -23,8 +23,10 @@ while attempts < max_attempts:
     elif status == 429:
         print("Transient error: 429 Rate Limit. Pausing for 1 second before retrying...")
         time.sleep(1)
+    elif status == 404:
+        raise RuntimeError("Fatal error: 404 Not Found. Halting immediately.")
     else:
-        print(f"Fatal error: status {status}. Halting immediately.")
+        print(f"Unknown status: {status}. Halting.")
         break
 
 if not success:
