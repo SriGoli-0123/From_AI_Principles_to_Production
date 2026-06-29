@@ -1,4 +1,4 @@
-# example1_structured_output.py
+# structured_output.py
 import os
 from pydantic import BaseModel, Field
 from openai import OpenAI

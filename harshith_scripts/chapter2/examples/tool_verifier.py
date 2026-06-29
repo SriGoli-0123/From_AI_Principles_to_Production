@@ -1,4 +1,4 @@
-# example2_tool_verifier.py
+# tool_verifier.py
 import os
 import json
 from pydantic import BaseModel, Field, ValidationError
