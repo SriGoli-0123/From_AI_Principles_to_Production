@@ -1,4 +1,4 @@
-# exercise2_2_file_extension_solved.py
+# file_extension_solved.py
 import os
 from pydantic import BaseModel, Field, field_validator, ValidationError
 from openai import OpenAI

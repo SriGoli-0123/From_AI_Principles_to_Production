@@ -1,4 +1,4 @@
-# exercise2_1_division_tool_solved.py
+# division_tool_solved.py
 import os
 from pydantic import BaseModel, Field, ValidationError
 from openai import OpenAI
