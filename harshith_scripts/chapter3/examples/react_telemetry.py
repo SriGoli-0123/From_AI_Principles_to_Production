@@ -1,4 +1,4 @@
-# example2_react_telemetry.py
+# react_telemetry.py
 import json
 import os
 from openai import OpenAI

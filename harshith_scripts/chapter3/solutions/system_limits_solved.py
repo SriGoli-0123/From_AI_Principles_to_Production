@@ -1,4 +1,4 @@
-# exercise3_1_system_limits_solved.py
+# system_limits_solved.py
 
 def mock_bad_tool() -> tuple[str, bool]:
     return "Error: Invalid argument value.", False

@@ -1,4 +1,4 @@
-# exercise3_2_search_validate_solved.py
+# search_validate_solved.py
 import os
 import json
 from openai import OpenAI
